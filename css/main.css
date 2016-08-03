@@ -36,8 +36,8 @@ section nav {
 
 section nav p {
     text-align: center;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 1.5em auto;
+    margin-right: 1.5em auto;
 }
 
 #currentlink {
