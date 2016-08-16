@@ -83,7 +83,7 @@ section nav a:active {
 @media (max-width: 767px) {
     .desktop {display: none;}
     .mobile {
-        display: inline;
+        display: flex;
     }
     .container {
         padding-top: 2em;
