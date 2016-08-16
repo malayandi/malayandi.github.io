@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
     <script src="https://use.fontawesome.com/63e7afe910.js"></script>
 </head>
 
@@ -21,7 +24,7 @@
     </header>
     
     <section class="container">
-        <div class="row">
+        <div class="desktop">
             <nav class="col-md-12">
                 <p><a href="index.html">about me</a></p>
                 <p><a href="teaching.html" id="currentlink">teaching</a></p>
@@ -30,37 +33,47 @@
                 <p><a href="contact.html">contact</a></p>
             </nav>
         </div>
+        <div class="mobile">
+            <nav class="dropdown" align="center">
+                <a type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><b>teaching</b> &emsp; &emsp;  <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html">about me</a></li>
+                    <li><a class="dropdown-item" href="teaching.html" id="currentlink">teaching</a></li>
+                    <li><a class="dropdown-item" href="projects.html">research & projects</a></li>
+                    <li><a class="dropdown-item" href="foundation.html">foundation</a></li>
+                    <li><a class="dropdown-item" href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </section>
     
-    <section class="col-md-2"></section>
-    <section class="col-md-8">
-    <p class="col-md-12">This coming semester, I will be teaching the support lecture for Stat 134 (Probability) offered by UC Berkeley's <a href="http://slc.berkeley.edu" target="_blank">Student Learning Center</a> (SLC) .</p>
-    
-    <br>
+    <section class="container">
+        <p class="col-md-12">This coming semester, I will be teaching the support lecture for Stat 134 (Probability) offered by UC Berkeley's <a href="http://slc.berkeley.edu" target="_blank">Student Learning Center</a> (SLC) .</p>
 
-    <h4 class="col-md-12">Courses</h4>
-        
-    <p class="col-md-2" id="teaching_date">Spring '16</p>
-    <ul class="col-md-10" id="teaching_desc">
-        <p><a href="https://math.berkeley.edu/~yxy/math54">Math 54</a>: Linear Algebra and Differential Equations, Professor Xinyi Yuan</p>
-        <p id="footnote">Click <a href="http://slc.berkeley.edu/statistics-134" target="_blank">here</a> for more information about the SLC's services for Stat 134.</p>
-    </ul>
-    <br>    
-    
-    <p class="col-md-2" id="teaching_date">Fall '16</p>
-    <ul class="col-md-10" id="teaching_desc">
-        <p>Stat 134: Concepts of Probability, Professor Nike Sun<p>
-        <p>Stat 134: Concepts of Probability, Professor Helmut Pitters</p>
-        <p id="footnote">Click <a href="http://slc.berkeley.edu/statistics-134" target="_blank">here</a> for more information about the SLC's services for Stat 134.</p>
-    </ul>
-    <br> 
-    <br>
-        
-    <p class="col-md-12" id="footnote">For more information about joining the SLC as a tutor or instructor, click <a href=http://slc.berkeley.edu/become-mathstatistics-tutor target="_blank">here</a> or feel free to <a href=contact.html>drop</a> me an email.</p>
+        <br>
 
-        
+        <h4 class="col-md-12">Courses</h4>
+
+        <p class="col-md-2" id="teaching_date">Spring '16</p>
+        <ul class="col-md-10" id="teaching_desc">
+            <p><a href="https://math.berkeley.edu/~yxy/math54">Math 54</a>: Linear Algebra and Differential Equations, Professor Xinyi Yuan</p>
+            <p id="footnote">Click <a href="http://slc.berkeley.edu/statistics-134" target="_blank">here</a> for more information about the SLC's services for Stat 134.</p>
+        </ul>
+        <br>    
+
+        <p class="col-md-2" id="teaching_date">Fall '16</p>
+        <ul class="col-md-10" id="teaching_desc">
+            <p>Stat 134: Concepts of Probability, Professor Nike Sun<p>
+            <p>Stat 134: Concepts of Probability, Professor Helmut Pitters</p>
+            <p id="footnote">Click <a href="http://slc.berkeley.edu/statistics-134" target="_blank">here</a> for more information about the SLC's services for Stat 134.</p>
+        </ul>
+        <br> 
+        <br>
+
+        <p class="col-md-12" id="footnote">For more information about joining the SLC as a tutor or instructor, click <a href=http://slc.berkeley.edu/become-mathstatistics-tutor target="_blank">here</a> or feel free to <a href=contact.html>drop</a> me an email.</p>
+
+
     </section>
-    <section class="col-md-2"></section>
     
     <footer class="container">
         <div class="row">

@@ -12,7 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cormorant:400|Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
     <script src="https://use.fontawesome.com/63e7afe910.js"></script>
 </head>
 
@@ -22,7 +25,7 @@
     </header>
     
     <section class="container">
-        <div class="row">
+        <div class="desktop">
             <nav class="col-md-12">
                 <p><a href="index.html" id="currentlink">about me</a></p>
                 <p><a href="teaching.html">teaching</a></p>
@@ -31,10 +34,21 @@
                 <p><a href="contact.html">contact</a></p>
             </nav>
         </div>
+        <div class="mobile">
+            <nav class="dropdown" align="center">
+                <a type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><b>about me</b> &emsp; &emsp;  <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html" id="currentlink">about me</a></li>
+                    <li><a class="dropdown-item" href="teaching.html">teaching</a></li>
+                    <li><a class="dropdown-item" href="projects.html">research & projects</a></li>
+                    <li><a class="dropdown-item" href="foundation.html">foundation</a></li>
+                    <li><a class="dropdown-item" href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </section>
     
-    <section class="col-md-2"></section>
-    <section class="col-md-8">
+    <section class="container">
         <div class="row">
             <figure class="col-md-6">
                 <img src="images/me5.jpg" class="img-responsive center-block"/>

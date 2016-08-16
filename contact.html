@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
     <script src="https://use.fontawesome.com/63e7afe910.js"></script>   
 </head>
 
@@ -21,7 +24,7 @@
     </header>
     
     <section class="container">
-        <div class="row">
+        <div class="desktop">
             <nav class="col-md-12">
                 <p><a href="index.html">about me</a></p>
                 <p><a href="teaching.html">teaching</a></p>
@@ -30,10 +33,21 @@
                 <p><a href="contact.html" id="currentlink">contact</a></p>
             </nav>
         </div>
+        <div class="mobile">
+            <nav class="dropdown" align="center">
+                <a type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><b>contact</b> &emsp; &emsp;  <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html">about me</a></li>
+                    <li><a class="dropdown-item" href="teaching.html">teaching</a></li>
+                    <li><a class="dropdown-item" href="projects.html">research & projects</a></li>
+                    <li><a class="dropdown-item" href="foundation.html">foundation</a></li>
+                    <li><a class="dropdown-item" href="contact.html" id="currentlink">contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </section>
     
-    <section class="col-md-2"></section>
-    <section class="col-md-8">
+    <section class="container" id="first_block">
         <p class="col-md-12">To learn more about my work, you can visit my <a href="https://www.linkedin.com/in/malayandi-palaniappan-480a759b" target="_blank">LinkedIn</a> or <a href="https://github.com/malayandi" target="_blank">Github</a> page. For any other inquiries, you can reach me by email or carrier pigeon.</p>
         
         <p class="col-md-12">Email: malayandi12 AT gmail DOT com </p>
@@ -43,7 +57,6 @@
         <!--<p class="col-md-12" id="footnote">Alternatively, you can click on one of the pretty icons at the bottom to send me an email or check out my LinkedIn page. It should be fairly obvious which leads to which. I think.</p>-->
 
     </section>
-    <section class="col-md-2"></section>
     
     <footer class="container">
         <div class="row">
