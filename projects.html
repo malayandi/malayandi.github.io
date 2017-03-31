@@ -27,9 +27,9 @@
         <div class="desktop">
             <nav class="col-md-12">
                 <p><a href="index.html">about me</a></p>
-                <p><a href="http://andypalan.com/stat134">stat 134</a></p>
-                <p><a href="teaching.html">teaching</a></p>
                 <p><a href="projects.html" id="currentlink">research</a></p>
+                <p><a href="teaching.html">teaching</a></p>
+                <p><a href="writing.html">writing</a></p>
                 <p><a href="foundation.html">foundation</a></p>
                 <p><a href="contact.html">contact</a></p>
             </nav>
@@ -38,10 +38,10 @@
             <nav class="dropdown" align="center">
                 <a type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">about me &emsp; &emsp;  <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="index.html" id="currentlink">about me</a></li>
-                    <li><a class="dropdown-item" href="andypalan.com/stat134">stat 134</a></li>
-                    <li><a class="dropdown-item" href="teaching.html">teaching</a></li>
+                    <li><a class="dropdown-item" href="index.html">about me</a></li>
                     <li><a class="dropdown-item" href="projects.html" id="currentlink">research</a></li>
+                    <li><a class="dropdown-item" href="teaching.html">teaching</a></li>
+                    <li><a class="dropdown-item" href="writing.html">writing</a></li>
                     <li><a class="dropdown-item" href="foundation.html">foundation</a></li>
                     <li><a class="dropdown-item" href="contact.html">contact</a></li>
                 </ul>
@@ -49,12 +49,36 @@
         </div>
     </section>
     
-    <section class="container">
-        <h4 class="col-md-12">Research</h4>
-        
+    <section class="container">        
         <ul>
             <li id="proj_desc">I am currently working under the supervision of <a href=https://people.eecs.berkeley.edu/~dhm/ target="_blank">Dylan Hadfield-Menell</a> and <a href=https://people.eecs.berkeley.edu/~russell/ target="_blank">Stuart Russell</a> at Berkeley's <a href=http://humancompatible.ai target="_blank">Center for Human Compatible AI</a> (CHCAI) on problems in the field of Collaborative Inverse Reinforcement Learning. I spend much of my time working with my friend and fellow undergraduate researcher, <a href=http://dhruvmalik.com target="_blank">Dhruv Malik</a>.</li>
+            <li id="proj_desc">Below, you can find resources (mostly recommended by Dylan) and notes on various topics related to our research that Dhruv and I compiled and prepared in the course of our research, along with our implementations of particular algorithms. A fair warning, we prepared these resources and notes largely for self-consumption, so press on at your own risk.</li>
         </ul>
+        
+        <h4 class="col-md-12">Bayes Nets</h4>
+        <ul>
+            <li id="notes">Pieter Abbeel's and Dan Klein's CS 188 <a href=http://ai.berkeley.edu/lecture_slides.html target="_blank">lecture notes</a>. (See lectures 16-19.)</li>
+            <li id="notes"><b>Notes:</b> <a href=assets/bayesnets.pdf target="_blank">Bayes Nets: Representation and Inference</a></li>
+        </ul>
+        
+        <h4 class="col-md-12">Markov Decision Processes (MDPs)</h4>
+        <ul>
+            <li id="notes">"Reinforcement Learning: An Introduction" by Richard S. Sutton and Andrew G. Barto. (See Ch 3 and 4, although I recommend reading the whole book).</li>
+        </ul>
+        
+        <h4 class="col-md-12">Partially-Observable Markov Decision Processes (POMDPs)</h4>
+        <ul>
+            <li id="notes">Kaelbling, Leslie Pack, Michael L. Littman, and Anthony R. Cassandra. <a href=http://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf target=_blank>"Planning and acting in partially observable stochastic domains."</a> Artificial intelligence 101.1 (1998): 99-134.</li>
+            <li id="notes">Braziunas, Darius. <a href=http://www.cs.toronto.edu/~darius/papers/POMDP_survey.pdf target="_blank">"Pomdp solution methods."</a> University of Toronto, Tech. Rep (2003).</li>
+            <li id="notes"><a href=http://aima.cs.berkeley.edu target=_blank>"Artificial Intelligence: A Modern Approach"</a> by Stuart Russell and Peter Norvig. (See Ch 17.4)</li>
+            <li id="notes"><b>Notes</b>: <a href=assets/POMDPNotes.pdf target="_blank">POMDPs: Basics, Conditional Plans, and Value Iteration for POMDPs</a></li>
+            <li id="notes"><b>Algorithm</b>: <a href=https://github.com/malayandi/Tiger-Problem-POMDP target="_blank">Value Iteration for POMDPs</a> Implemented on the tiger example described in Littman, Cassandra and Kaelbling (1998). Uses Monahan's enumeration algorithm to prune the set of conditional plans into a parsimonious set. </li>
+        </ul>
+        
+        <!--<h4 class="col-md-12">Decentralized POMDPs (Dec-POMDPs)</h4>
+        <ul>
+            <li id="notes"><b>Notes</b>: <a href=assets/DecPOMDPNotes.pdf target="_blank">Dec-POMDPs (Decentralized POMDPs): Basics, Solution Methods, Information State MDPs</a></li>
+        </ul>-->
 
         <!--
         <h4 class="col-md-12">Projects</h4>

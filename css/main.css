@@ -47,22 +47,47 @@ section nav p {
     color: darkgray;
 }
 
-section nav a {
+a:link {
     color: black;
+    border-bottom: 1px solid #797D7F;
+}
+
+a:visited {
+    color: black;
+    border-bottom: 1px solid #797D7F;
+}
+
+a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+section nav a:link {
+    color: black;
+    border-bottom: none;
 }      
 
 section nav a:visited {
     color: black;
+    border-bottom: none;
     text-decoration: none;
 }
 
 section nav a:hover {
     color: darkgray;
+    border-bottom: none;
     text-decoration: none;
 }
 
 section nav a:active {
     color: darkgray;
+    border-bottom: none;
     text-decoration: none;
 }
 
@@ -126,6 +151,15 @@ footer {
 
 #proj_desc {
     margin-top: 0.25em;
+    padding-bottom: 0.5em;
+}
+
+#notes {
+    margin-left: 1.5em;
+    margin-top: 0.25em;
+    padding-bottom: 0.5em;
+    list-style: circle;
+    clear: left;
 }
 
 #footnote {
