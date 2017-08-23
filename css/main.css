@@ -145,6 +145,12 @@ footer {
     padding-left: 3em;
 }
 
+#teaching_desc_current {
+    padding-left: 3em;
+    margin-bottom: 2em;
+}
+
+
 #proj_title {
     margin-left: 2em;
 }
@@ -158,11 +164,15 @@ footer {
     margin-left: 1.5em;
     margin-top: 0.25em;
     padding-bottom: 0.5em;
-    list-style: circle;
+    list-style: none;
     clear: left;
 }
 
 #footnote {
     font-size: 0.8em;
     font-style: italic;
+}
+
+#email {
+    font-family: 'Source Code Pro', monospace;
 }
