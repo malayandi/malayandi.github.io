@@ -11,13 +11,13 @@ header h1 {
     font-size: 6em;
 }
 
+h3 {
+    margin-top: 0;
+}
+
 ul {
     padding-left: 2em;
     padding-right: 2em;
-    text-align: justify;
-}
-
-p {
     text-align: justify;
 }
 
@@ -25,36 +25,14 @@ li {
     list-style-type: none;
 }
 
-.mobile {
-    display: none;
-}
-
-section nav {
-    font-family: 'Cormorant', serif;
-    display: flex;
-    justify-content: center;
-    font-size: 1.1em;
-    margin: 0 auto;
-}
-
-section nav p {
-    text-align: center;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-}
-
-#currentlink {
-    color: darkgray;
-}
-
 a:link {
     color: black;
-    border-bottom: 1px solid #797D7F;
+    border-bottom: 1px solid lightgrey;
 }
 
 a:visited {
     color: black;
-    border-bottom: 1px solid #797D7F;
+    border-bottom: 1px solid lightgrey;
 }
 
 a:hover {
@@ -67,42 +45,18 @@ a:active {
     color: black;
     border-bottom: 1px solid black;
 }
-
-section nav a:link {
-    color: black;
-    border-bottom: none;
-}      
-
-section nav a:visited {
-    color: black;
-    border-bottom: none;
-    text-decoration: none;
-}
-
-section nav a:hover {
-    color: darkgray;
-    border-bottom: none;
-    text-decoration: none;
-}
-
-section nav a:active {
-    color: darkgray;
-    border-bottom: none;
-    text-decoration: none;
-}
-
-.btn {
-    outline: none;
-    border: none;
-}
-
-.btn:hover {
-    background-color: white;
-}
-
 .container {
     padding-top: 2em;
     width: 66%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#email {
+    font-family: 'Source Code Pro', monospace;
 }
 
 @media (max-width: 767px) {
@@ -114,67 +68,4 @@ section nav a:active {
         padding-top: 2em;
         width: 100%;
     }
-}
-
-#caption {
-    font-family: 'Cormorant', serif;
-    font-size: 0.9em;
-    text-align: center;
-    margin-top: 0.7em;
-    margin-bottom: 2em;
-}    
-
-#intro-text {
-    font-size: 1em;
-}
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.fa {
-    color: black;
-}
-
-#teaching_date {
-    padding-left: 3em;
-    font-weight: bold;
-}
-
-#teaching_desc {
-    padding-left: 3em;
-}
-
-#teaching_desc_current {
-    padding-left: 3em;
-    margin-bottom: 2em;
-}
-
-#disclaimer {
-    margin-left: 1em;
-    font-size: 0.9em;
-}
-
-#proj_desc {
-    margin-top: 0.25em;
-    padding-bottom: 0.5em;
-}
-
-#notes {
-    margin-left: 1.5em;
-    margin-top: 0.25em;
-    padding-bottom: 0.5em;
-    list-style: none;
-    clear: left;
-}
-
-#footnote {
-    font-size: 0.8em;
-    font-style: italic;
-    margin-bottom: 0;
-}
-
-#email {
-    font-family: 'Source Code Pro', monospace;
 }
